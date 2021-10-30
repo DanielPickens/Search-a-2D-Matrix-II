@@ -1,5 +1,5 @@
 # Search-a-2D-Matrix-II
-My clean JavaScript solution that's faster than 83%, O(1), O(1)
+ My clean JavaScript solution that's faster than 83%, O(1), O(1)
 
 
 "Write an efficient algorithm that searches for a target value in an m x n integer matrix. The matrix has the following properties:
