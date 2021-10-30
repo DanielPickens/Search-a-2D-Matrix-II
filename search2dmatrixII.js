@@ -1,5 +1,3 @@
-//Dynammic Progamming
-
 //Time complexity: O(1)
 //Space complexity: O(1)
 
@@ -9,7 +7,7 @@ var searchMatrix = function(matrix, target) {
         let row = 0;
         let col_max = matrix[0].length-1;
         
-        //move down or left to find the element
+        //move down or left and traverse matrix to find the element
         while(row < matrix.length && col_max >= 0){
             if(matrix[row][col_max] == target) return true;
             else if(matrix[row][col_max] > target) col_max--;
